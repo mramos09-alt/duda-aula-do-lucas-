@@ -1,0 +1,30 @@
+body{
+    background-color: #8B6D6D; /*muda a cor de fundo*/
+    color: #ffffff; /*muda cor da letra*/
+    display: flex; /*organiza os elementos*/
+    justify-content: space-around; /*cria espaço igual entre os elementos */
+    margin-top: 150px; /*define a margem do topo*/
+    
+} 
+
+h1{
+    font-size: 32px; /*altera tamanho da fonte*/
+
+} 
+p{
+    font-size: 22px;
+}
+div{
+     width: 500px;
+     padding: 20px
+}
+
+button{
+     width: 150px;
+     height:50px ;
+     font-size: 20px;
+     font-weight: 600px;
+     margin: 0 20px;
+     background-color: #8B6D6D;
+
+}
