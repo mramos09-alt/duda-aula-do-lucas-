@@ -19,5 +19,17 @@ background-repeat: no-repeat;
    } 
 .container{
     height: 100vh;
-    
+.container_botão{
+ background-color: var(--botao-azul);
+ border-radius: 5px;
+}
 } 
+
+.container_botão{
+ background-color: transparent;
+border: 2PX solid var(--branco-principal);
+}
+
+.container{
+
+}
