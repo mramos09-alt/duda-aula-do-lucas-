@@ -1,35 +1,30 @@
-:root{
-    --branco-principal:#ffffff;
-    --cinza-secundario:#c0c0c0;
-    --botao-azul:#167bf7;
-    --cor-de-fundo:#000000;
-
-
-}
-
 body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-.principal{
-
-   background-image: url("background.png");
-background-size: contain;
-background-repeat: no-repeat;
-   } 
-.container{
-    height: 100vh;
-.container_botão{
- background-color: var(--botao-azul);
- border-radius: 5px;
-}
+    background-color: #8B6D6D; /*muda a cor de fundo*/
+    color: #ffffff; /*muda cor da letra*/
+    display: flex; /*organiza os elementos*/
+    justify-content: space-around; /*cria espaço igual entre os elementos */
+    margin-top: 150px; /*define a margem do topo*/
+    
 } 
 
-.container_botão{
- background-color: transparent;
-border: 2PX solid var(--branco-principal);
+h1{
+    font-size: 32px; /*altera tamanho da fonte*/
+
+} 
+p{
+    font-size: 22px;
+}
+div{
+     width: 500px;
+     padding: 20px
 }
 
-.container{
+button{
+     width: 150px;
+     height:50px ;
+     font-size: 20px;
+     font-weight: 600px;
+     margin: 0 20px;
+     background-color: #8B6D6D;
 
 }
